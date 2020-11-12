@@ -74,7 +74,7 @@ form input[type="password"]:focus {
 input[type=submit] {
 	padding:15px 50px;
 	width:auto;
-	background:#1abc9c;
+	background:#0f49ec;
 	border:none;
 	color:white;
 	cursor:pointer;
