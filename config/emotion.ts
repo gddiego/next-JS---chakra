@@ -1,5 +1,4 @@
-import styled , { CreateStyled }  from '@emotion/core';
-
+import  styled , {CreateStyled} from '@emotion/styled';
 
 import theme from '../styles/theme';
 
