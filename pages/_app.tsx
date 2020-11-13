@@ -1,7 +1,7 @@
 // import '../styles/globals.css'
 // import ThemeContainer from '../context/theme/ThemeContainer';
 
-import ThemeContainer from "../context/ThemeContainer"
+import ThemeContainer from "../context/theme/ThemeContainer"
 
 function MyApp({ Component, pageProps }) {
   return (
