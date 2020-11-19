@@ -19,7 +19,7 @@ export default function Home() {
        >
 
 <Flex  gridArea='logo' flexDir='column' alignItems='flex-start'>
-  <img src="/coletando.svg" alt='e-coletando' />
+  <img src="/pg" alt='e-coletando' />
   <Heading  size='2xl' lineHeight='shorter' marginTop={16}> 
   Smashlog
 </Heading>
@@ -57,6 +57,7 @@ type='password'
 />
 
 <Link 
+href='components/dashboard'
 alignSelf='flex-start'
 marginTop={2}
 fontSize='sm'

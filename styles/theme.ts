@@ -23,7 +23,7 @@ const customTheme : DefaultTheme = {
 
     fontSizes:{
         ...theme.fontSizes,
-        // '2xl': '54px'
+        '3xl': '20px'
     },
     colors:{
         ...theme.colors,
