@@ -1,50 +1,60 @@
 import { theme, DefaultTheme } from '@chakra-ui/core';
 
-const customTheme : DefaultTheme = {
+const customTheme: DefaultTheme = {
     ...theme,
-    
-    fonts:{
+
+    fonts: {
         body: 'Roboto, system-ui, sans-serif',
         heading: 'Roboto, system-ui, sans-serif',
         mono: 'menlo, monospace'
     },
-    fontWeights:{
+    fontWeights: {
         ...theme.fontWeights,
         normal: 400,
-        medium:600,
-        bold:700,
+        medium: 600,
+        bold: 700,
     },
-    radii:{
+    radii: {
         ...theme.radii,
         sm: '5px',
         md: '8px',
 
     },
 
-    fontSizes:{
+    fontSizes: {
         ...theme.fontSizes,
         '3xl': '20px'
     },
-    colors:{
+    colors: {
         ...theme.colors,
-        purple:{
+        purple: {
             ...theme.colors.purple,
-            500:'#8257e5',
+            500: '#8257e5',
         },
-        gray:{
-            ...theme.colors.gray,
-            300: '#e1e1e6',
-            600:'#29292e',
-            700:'#202024',
-            800:'#121214',
-            
+        green: {
+            ...theme.colors.green,
+            100: '#C6F6D5',
+            200:'#9AE6B4',
+            400: '#48BB78'
         },
         teal:{
+...theme.colors.teal,
+50: '#E6FFFA'
+        },
+        gray: {
+            ...theme.colors.gray,
+            300: '#e1e1e6',
+            600: '#29292e',
+            700: '#202024',
+            800: '#121214',
+
+        },
+        teal: {
             ...theme.colors.teal,
             300: '#e1e1e6',
-            600:'#29292e',
-            700:'#202024',
-            800:'#2B6CB0'
+            600: '#29292e',
+            700: '#202024',
+            800: '#2B6CB0'
         }
     }
 
