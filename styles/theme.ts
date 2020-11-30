@@ -34,12 +34,12 @@ const customTheme: DefaultTheme = {
         green: {
             ...theme.colors.green,
             100: '#C6F6D5',
-            200:'#9AE6B4',
+            200: '#9AE6B4',
             400: '#48BB78'
         },
-        teal:{
-...theme.colors.teal,
-50: '#E6FFFA'
+        teal: {
+            ...theme.colors.teal,
+            50: '#E6FFFA'
         },
         gray: {
             ...theme.colors.gray,
@@ -49,13 +49,7 @@ const customTheme: DefaultTheme = {
             800: '#121214',
 
         },
-        teal: {
-            ...theme.colors.teal,
-            300: '#e1e1e6',
-            600: '#29292e',
-            700: '#202024',
-            800: '#2B6CB0'
-        }
+        
     }
 
 }
